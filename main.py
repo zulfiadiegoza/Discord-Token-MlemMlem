@@ -49,7 +49,7 @@ def deep_scan(path):
             file_path = os.path.join(root, file)
             
          
-            if os.path.getsize(file_path) > 10 * 1024 * 1024:  # >10MB
+            if os.path.getsize(file_path) > 10 * 1024 * 1024:  
                 continue
                 
             try:
